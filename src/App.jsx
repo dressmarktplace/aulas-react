@@ -1,3 +1,5 @@
+import { Hello } from "./components/Hello";
+
 const App = () => {
   return (
     <main className="min-h-dvh place-items-center bg-slate-50">
@@ -20,6 +22,10 @@ const App = () => {
       <a className="inline-block px-4 py-2 rounded-lg border houver:bg-slate-300 transition-all focus:ring-2 focus:ring-blue-500">
         link com foco
         </a>
+
+        <Hello name="Michelle" />
+        <Hello name="Maria" />
+        <Hello name="João" />
     </main>
   );
 }
